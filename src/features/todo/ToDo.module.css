@@ -1,0 +1,22 @@
+.toDoWrapper {
+  width: 40rem;
+  margin: 0 auto;
+}
+
+.toDoHeader {
+  margin-bottom: 2rem;
+}
+
+.btnAdd {
+  height: 3rem;
+  margin-left: auto;
+  margin-bottom: 1rem;
+}
+
+.headerSection {
+  display: flex;
+}
+
+.filter {
+  flex: 1;
+}
