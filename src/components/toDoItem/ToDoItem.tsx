@@ -43,7 +43,7 @@ const ToDoItem: React.FC<ToDoItemProps> = ({
       </div>
       <div className={styles.contentSection}>
         <div className={styles.titleSection}>
-          <span className={styles.title}>{task.title}</span>
+          <span className={styles.title}>{light(task.title)}</span>
           <EditIcon className={styles.editIcon} onClick={handleEditTask} />
           <DeleteOutlineIcon
             data-testid={`deleteIcon_${task.id}`}

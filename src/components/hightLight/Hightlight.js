@@ -11,13 +11,13 @@ const Hightlight = (props) => {
       if (index < array.length - 1) {
         const c = matchValue.shift();
         return (
-          <>
+          <React.Fragment key={index}>
             {s}
             <span className={styles.hightlight}>{c}</span>
-          </>
+          </React.Fragment>
         );
       }
-      return s;
+      return <React.Fragment key={index}>{s}</React.Fragment>;
     });
   }
   return str;

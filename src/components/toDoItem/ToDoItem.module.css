@@ -18,14 +18,13 @@
 .title {
   font-size: 1.125rem;
   font-weight: bold;
-  white-space: pre;
+  text-align: left;
 }
 
 .descriptionSection {
   padding: 0 0.5rem 0.5rem 0.5rem;
   text-align: left;
   color: dimgray;
-  white-space: pre-wrap;
 }
 
 .editIcon {
@@ -45,7 +44,6 @@
 }
 
 .deleteIcon:hover {
-  /* color: rgb(182, 15, 15); */
   color: rgb(142, 27, 27);
   cursor: pointer;
 }
